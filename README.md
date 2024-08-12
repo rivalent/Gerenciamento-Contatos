@@ -7,7 +7,7 @@ Esta é uma aplicação de linha de comando desenvolvida em Python para gerencia
 ## Estrutura do Projeto
 
 - **Configuração do Banco de Dados:** 
-  - O banco de dados SQLite é configurado automaticamente ao iniciar a aplicação. A tabela `contacts` é criada caso não exista.
+  - O banco de dados SQLite é configurado automaticamente ao iniciar a aplicação. A data base `banco_dados` é criada caso não exista.
   
 - **Funções CRUD:**
   - **Criar:** Adicionar novos contatos ao banco de dados.
@@ -28,7 +28,7 @@ Esta é uma aplicação de linha de comando desenvolvida em Python para gerencia
 
 ### Importação de Dados a Partir de CSV
 
-- A aplicação lê um arquivo CSV (`contatos_com_erros.csv`) e realiza a validação e tratamento dos dados antes de inseri-los no banco de dados.
+- A aplicação lê um arquivo CSV (`contacts_with_errors.csv`) e realiza a validação e tratamento dos dados antes de inseri-los no banco de dados.
 - **Regras de Validação:**
   - **Nome:** Deve conter nome e sobrenome.
   - **Email:** Deve estar no formato válido, por exemplo, `algumacoisa@algumacoisa.com`.
